@@ -21,6 +21,13 @@ info:
     version: 1.0.0
   java-vendor: ${java.specification.vendor}
 
+spring:
+  cloud:
+    gcp:
+      project-id: gcp-practice-project-307011
+      credentials.location: file:C:\softwares\gcp\keys.json
+
+pubsub.subscription: projects/gcp-practice-project-307011/subscriptions/topic-1-subscription
 ---
 spring.profiles: dev
 
