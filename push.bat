@@ -7,5 +7,5 @@ git status
 git add .
 set /p commitMessage=Enter Commit Message: 
 git commit -m "%commitMessage%"
-git push
+git push https://avinash.pocs@gmail.com@github.com
 pause
