@@ -1,4 +1,4 @@
-server.port: 9000
+server.port: 9001
 
 spring.profiles.active: dev
 
@@ -25,13 +25,14 @@ spring:
   cloud:
     gcp:
       project-id: gcp-practice-project-307011
-      credentials.location: file:C:\softwares\gcp\keys.json
+      # credentials.location: file:C:\softwares\gcp\keys.json
 
-pub.sub.subscription: projects/gcp-practice-project-307011/subscriptions/topic-1-subscription
+pub.sub.subscription: projects/gcp-practice-project-307011/subscriptions/topic-1-subscription-1
 
 ---
 spring.profiles: dev
 
+server.port: 9001
 ---
 spring.profiles: test
 
