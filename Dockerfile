@@ -1,4 +1,6 @@
-FROM openjdk:8-jdk-alpine
+#FROM openjdk:8-jdk-alpine
+
+FROM adoptopenjdk/openjdk11:alpine-jre
 
 # maintainer info
 LABEL maintainer="donthu.babu@infogain.com"
