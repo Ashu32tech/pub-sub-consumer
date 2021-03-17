@@ -4,7 +4,7 @@ spring.profiles.active: dev
 
 ## logging
 logging:
-  pattern.console: '%d{yyyy-MM-dd HH:mm:ss} [%X{source}] [%X{correlation-id}] [%-5level] [%C:%L] - %m%n'
+  pattern.console: '%d{yyyy-MM-dd HH:mm:ss} [%-5level] [%C:%L] - %m%n'
   file: logs/pub-sub-consumer/app.log
   level.org.springframework: info
 
@@ -27,8 +27,10 @@ spring:
       project-id: gcp-practice-project-307011
       # credentials.location: file:C:\softwares\gcp\keys.json
 
-pub.sub.subscription: projects/gcp-practice-project-307011/subscriptions/topic-1-subscription-1
-
+pub.sub:
+  subscription: projects/gcp-practice-project-307011/subscriptions/topic-1-subscription-1
+  mobile.number.subscription: projects/gcp-practice-project-307011/subscriptions/topic-1-mobile-number-subscription
+  remark.subscription: projects/gcp-practice-project-307011/subscriptions/topic-1-remarks-subscription
 ---
 spring.profiles: dev
 
