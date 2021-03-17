@@ -11,3 +11,8 @@ hasPrefix(attributes.mobileNumber, "900")
 
 hasPrefix(attributes.mobileNumber, "901")
 ```
+
+# References
+* [https://codelabs.developers.google.com/codelabs/cloud-springboot-kubernetes#0](https://codelabs.developers.google.com/codelabs/cloud-springboot-kubernetes#0)
+* [https://medium.com/javarevisited/kubernetes-step-by-step-with-spring-boot-docker-gke-35e9481f6d5f](https://medium.com/javarevisited/kubernetes-step-by-step-with-spring-boot-docker-gke-35e9481f6d5f)
+* [https://cloud.google.com/pubsub/docs/filtering](https://cloud.google.com/pubsub/docs/filtering)
