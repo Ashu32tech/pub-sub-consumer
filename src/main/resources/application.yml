@@ -24,13 +24,13 @@ info:
 spring:
   cloud:
     gcp:
-      project-id: gcp-practice-project-307011
+      project-id: silver-approach-307010
       # credentials.location: file:C:\softwares\gcp\keys.json
 
 pub.sub:
-  subscription: projects/gcp-practice-project-307011/subscriptions/topic-1-subscription-1
-  mobile.number.subscription: projects/gcp-practice-project-307011/subscriptions/topic-1-mobile-number-subscription
-  remark.subscription: projects/gcp-practice-project-307011/subscriptions/topic-1-remarks-subscription
+  subscription: projects/silver-approach-307010/subscriptions/topic-1-subscription-1
+  mobile.number.subscription: projects/silver-approach-307010/subscriptions/topic-1-mobile-number-subscription
+  remark.subscription: projects/silver-approach-307010/subscriptions/topic-1-remarks-subscription
 ---
 spring.profiles: dev
 
