@@ -9,7 +9,7 @@ mvn archetype:generate -DgroupId=com.infogain.gcp.poc -DartifactId=pub-sub-consu
 ```
 hasPrefix(attributes.mobileNumber, "900")
 
-hasPrefix(attributes.mobileNumber, "901")
+hasPrefix(attributes.remark, "901")
 ```
 
 # References
