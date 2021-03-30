@@ -5,6 +5,12 @@
 mvn archetype:generate -DgroupId=com.infogain.gcp.poc -DartifactId=pub-sub-consumer -Dversion=1.0.0 -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 ```
 
+* Subscription Filters
+```
+attributes:mobileNumber
+attributes:remark
+```
+
 * Filter prefixes
 ```
 hasPrefix(attributes.mobileNumber, "900")
